@@ -1,0 +1,38 @@
+
+
+img{
+    width: auto;
+    height:200px;
+}
+.nit{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #f9f9f9;
+    padding: 10px;
+    
+    
+}
+.nit_name{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 10px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgb(232, 154, 154);
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(91, 91, 185);
+    
+}
+.he{
+    text-align: center;
+    text-decoration: underline;
+}
+.nit_name a:hover{
+    text-decoration: underline;
+    
+}
