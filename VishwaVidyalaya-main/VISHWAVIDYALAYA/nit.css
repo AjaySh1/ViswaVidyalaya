@@ -88,14 +88,14 @@ img{
     
 }
 .nit_name{
-    background-color: rgba(240, 238, 238, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    background-color:rgb(205, 196, 180);
+    border: 1px solid rgba(13, 124, 132, 0.8);
     padding: 15px;
     font-size: 20px;
     text-align: center;
     margin: 10px 10px;
     border-radius: 15px;
-    box-shadow: 5px 5px 10px rgb(0, 26, 28);
+    box-shadow: 2px 2px  10px rgb(31, 179, 190);
     
 }
 a{
