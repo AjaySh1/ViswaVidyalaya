@@ -1,17 +1,14 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
-  body {
-     background-image: url(bkg2.jpg);
-    color: aliceblue;
-    font-family: "Poppins", sans-serif;
-    background-size: cover;
-    height: 50%;
-    background-repeat: no-repeat;
-    background-color: rgb(0, 0, 0);
-    
-  }
+
+body {
+    background-image: url(bkg2.jpg);
+   color: aliceblue;
+   font-family: "Poppins", sans-serif;
+   background-size: cover;
+   height: 50%;
+   background-repeat: no-repeat;
+   background-color: rgb(0, 0, 0);
+   
+ }
 
 nav {
     display: flex;
@@ -40,61 +37,75 @@ nav {
     text-decoration: none;
     font-size: medium;
   }
-
+  .right ul li a:hover {
+  
+    text-decoration: underline;
+    text-decoration-color: #ff771d;
+    font-size: medium;
+  }
   #vid{
     color: rgb(197, 84, 3);
     font-weight: 600;
   }
 
-  .quote{
-
-    margin-top: 9%;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 500;
-  
-    
-    
-  }
-.author{
-    margin-left: 70%;
-    font-style: oblique;
-    font-size: 12px;
-}
-
-
-/* 3rd section */
-
-.sec{
-    border: 2px solid red;
-    height: 280px;
-    width:30%;
-    background-color: rgb(30, 54, 75);
+.top{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-}
-.trd{
-    margin-top: 140px;
-   display: flex;
-   justify-content: space-around;
-   flex-wrap: nowrap;
-}
-#sec1{
-    background-image: url(colleges-showcase.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    justify-content: space-between;
+   
     
-
 }
-#sec2{
-    background-image: url(cutoff-showcase.jpg);
-    background-size: cover;
-
+.left1{
+  color:aliceblue;
+  
+  margin-top: 20px;
+  font-size: xx-large;
+  margin-left: 30%;
+  
+}
+.left1:hover{
+    text-decoration: underline;
+    text-decoration-color: #ff771d ;
+}
+.right1{
+    margin-right: 50px;
+    margin-top: 20px;
+  
+  
+}
+#im{
+    width: 25px;
+    height: 25px;;
+}
+img{
+    width: fit;
+    height:200px;
+}
+.nit{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    
+    
+}
+.nit_name{
+    background-color: rgba(240, 238, 238, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgb(0, 26, 28);
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+    font-weight: 500;
 }
 
-#sec3{
-    background-image: url(pexels-photo-4144224.jpeg);
-    background-size: cover;
+.nit_name a:hover{
+    text-decoration: underline;
+    
 }
+
