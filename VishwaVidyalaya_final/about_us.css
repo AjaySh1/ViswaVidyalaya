@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+     background-image: url(bkg2.jpg);
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    background-size: cover;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 0, 0);
+  }
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+
+  .left
+  {  margin-left: 45px;
+    font-size: 20px;
+  }
+  .right {
+    align-self: flex-end;
+ 
+  }
+  .right ul {
+    display: flex;
+    flex-direction: row;
+    
+  }
+  li {
+    margin: 20px;
+  }
+  .right ul li a {
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+    font-size: medium;
+  }
+  .right ul li a:hover {
+  
+    text-decoration: underline;
+    text-decoration-color: #ff771d;
+    font-size: medium;
+  }
+  #vid{
+    color: rgb(197, 84, 3);
+    font-weight: 600;
+  }
+
+
+.text{
+    text-align: center;
+}
+.names{
+    text-align: left;
+}
+.quote{
+    text-align: center;
+ }
+
+ .column {
+    margin-top: 30px;
+    float: left;
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+.row{
+    margin-bottom: 40px;
+}
+  .about_para{
+    margin-top: 150px;
+  }
+
+
+
+  .ajay_pic{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+  }
+  .ajay_pic img{
+    border-radius: 45%;
+  }
+  .animesh_pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   }
+   .animesh_pic img{
+     border-radius: 45%;
+   }
+   .ajay_pic:hover img{
+    filter: brightness(125%);
+  }
+  .animesh_pic:hover img{
+    filter: brightness(130%);
+  }
+  
+  
+   
+
+   .left1:hover{
+    text-decoration: underline;
+    text-decoration-color: #ff771d ;
+}
+.id div img{
+  width: 1rem;
+  height: 1rem;
+}
+.id{
+   
+   
+ display: flex;
+ margin-left: 25%;
+ margin-right: 25%;
+ justify-content: space-around;
+ 
+}
+.about_para{
+  background-color: #141517; 
+  border: 2px solid #717171; 
+  padding: 20px;
+  margin: 20px auto;
+  margin-top: 26%;
+  width: 90%; 
+  box-sizing: border-box; 
+  text-align: center; 
+  border-radius: 20%;
+}
+.about_para:hover{
+  text-decoration-color: antiquewhite;
+  animation-delay: 800ms;
+  filter: brightness(125%)
+}
+.id{
+  background-color: #0a1513; 
+  border: 2px solid #717171; 
+  padding: 20px;
+  
+  box-sizing: border-box; 
+  text-align: center; 
+  border-radius: 20%;
+}
